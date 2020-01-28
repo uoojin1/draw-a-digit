@@ -19,7 +19,7 @@
     "styled-components": "^5.0.0"
   },
   "scripts": {
-    "start": "npm run build && node --experimental-modules server/index.mjs",
+    "start": "node --experimental-modules server/index.mjs",
     "dev:server": "nodemon --experimental-modules server/index.mjs",
     "dev:ui": "react-scripts-ts start",
     "build": "react-scripts-ts build",

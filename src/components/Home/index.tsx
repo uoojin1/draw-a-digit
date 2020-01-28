@@ -82,7 +82,7 @@ function onReset() {
 async function onAnalyze(setPrediction: any) {
   const canvas = document.getElementsByTagName('canvas')[0]
   const imgData = canvas.toDataURL()
-  const response = await fetch('http://localhost:5000/predict', {
+  const response = await fetch('https://stark-hollows-45230.herokuapp.com/predict', {
     method: 'POST',
     body: imgData,
     headers: {
