@@ -15,7 +15,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-p5-wrapper": "^2.0.0",
-    "react-scripts-ts": "3.1.0",
+    "react-scripts-ts": "4.0.8",
     "styled-components": "^5.0.0"
   },
   "scripts": {
